@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  name = 'Chris';
   title = 'scheduler-web-ui';
+  isShowDiv = false;
+ 
+  toggleDisplayDiv() {
+    this.isShowDiv = !this.isShowDiv;
+  }
 }
