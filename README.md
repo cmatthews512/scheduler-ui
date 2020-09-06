@@ -1,6 +1,10 @@
 # SchedulerWebUi
 
+<<<<<<< HEAD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+=======
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+>>>>>>> 4ba8407efd02466ff40279ca8a36e39948db443a
 
 ## Development server
 

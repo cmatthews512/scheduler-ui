@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "extends": "./tsconfig.base.json",
+=======
+{
+  "extends": "./tsconfig.json",
+>>>>>>> 4ba8407efd02466ff40279ca8a36e39948db443a
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "types": []

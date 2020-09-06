@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "extends": "../tsconfig.base.json",
@@ -5,6 +6,14 @@
     "outDir": "../out-tsc/e2e",
     "module": "commonjs",
     "target": "es2018",
+=======
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/e2e",
+    "module": "commonjs",
+    "target": "es5",
+>>>>>>> 4ba8407efd02466ff40279ca8a36e39948db443a
     "types": [
       "jasmine",
       "jasminewd2",
