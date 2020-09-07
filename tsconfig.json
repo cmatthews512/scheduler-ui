@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
   This is a "Solution Style" tsconfig.json file, and is used by editors and TypeScript’s language server to improve development experience.
   It is not intended to be used to perform a compilation.
@@ -15,28 +14,4 @@
       "path": "./tsconfig.spec.json"
     }
 ]
-=======
-{
-  "compileOnSave": false,
-  "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "downlevelIteration": true,
-    "experimentalDecorators": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "importHelpers": true,
-    "target": "es2015",
-    "lib": [
-      "es2018",
-      "dom"
-    ]
-  },
-  "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
-  }
->>>>>>> 4ba8407efd02466ff40279ca8a36e39948db443a
 }
