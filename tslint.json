@@ -94,13 +94,10 @@
         "named": "never"
       }
     },
-<<<<<<< HEAD
     "typedef": [
       true,
       "call-signature"
     ],
-=======
->>>>>>> 4ba8407efd02466ff40279ca8a36e39948db443a
     "typedef-whitespace": {
       "options": [
         {
