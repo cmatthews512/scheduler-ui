@@ -1,3 +1,4 @@
+import { LeagueModule } from './components/league/league.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -6,7 +7,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { LeagueComponent } from './components/league/league.component';
 import { TeamComponent } from './components/team/team.component';
 import { SeasonComponent } from './components/season/season.component';
  
@@ -16,13 +16,13 @@ import { SeasonComponent } from './components/season/season.component';
     HomeComponent,
     AboutComponent,
     DashboardComponent,
-    LeagueComponent,
     TeamComponent,
     SeasonComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LeagueModule
   ],
   providers: [],
   bootstrap: [AppComponent]
